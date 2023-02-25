@@ -13,3 +13,7 @@ for (var i =0; i<item_list.length;i++){
 }
 
 item_list[2].style.backgroundColor = 'green';
+
+item_without_class = document.getElementsByTagName('li')
+console.log(item_without_class)
+item_without_class[4].style.backgroundColor= 'grey';
