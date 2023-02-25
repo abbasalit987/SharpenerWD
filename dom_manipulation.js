@@ -20,6 +20,7 @@ item_without_class[4].style.backgroundColor= 'grey';
 
 var item_select = document.querySelectorAll('.list-group-item');
 //console.log(item_select);
+item_select[1].style.backgroundColor = 'green'
 item_select[1].style.color = 'green';
 item_select[2].style.display = 'none'
 
