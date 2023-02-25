@@ -32,30 +32,31 @@
 
 //TRAVERSING THE DOM
 
-var itemList = document.querySelector('#items');
-console.log(itemList.parentNode);
-itemList.parentNode.style.backgroundColor = '#f4f4f4'; 
+// var itemList = document.querySelector('#items');
+// console.log(itemList.parentNode);
+// itemList.parentNode.style.backgroundColor = '#f4f4f4'; 
 
-console.log(itemList.childNodes)
-console.log(itemList.children)
-itemList.firstElementChild.style.backgroundColor = '#f4c4ff'
-itemList.lastElementChild.style.backgroundColor = '#a4c4ff'
-console.log(itemList.lastChild);
-console.log(itemList.nextElementSibling)
-console.log(itemList.previousElementSibling)
-itemList.previousElementSibling.textContent = 'ITEMS'
+// console.log(itemList.childNodes)
+// console.log(itemList.children)
+// itemList.firstElementChild.style.backgroundColor = '#f4c4ff'
+// itemList.lastElementChild.style.backgroundColor = '#a4c4ff'
+// console.log(itemList.lastChild);
+// console.log(itemList.nextElementSibling)
+// console.log(itemList.previousElementSibling)
+// itemList.previousElementSibling.textContent = 'ITEMS'
 
-//Cerating a div
+// //Cerating a div
 
-var newDiv = document.createElement('div');
-newDiv.className = 'new-div'
-newDiv.id = 'newdiv'
-newDiv.setAttribute('title','New Div');
-var newDivText = document.createTextNode('Hello World!');
-newDiv.appendChild(newDivText)
-console.log(newDiv)
+// var newDiv = document.createElement('div');
+// newDiv.className = 'new-div'
+// newDiv.id = 'newdiv'
+// newDiv.setAttribute('title','New Div');
+// var newDivText = document.createTextNode('Hello World!');
+// newDiv.appendChild(newDivText)
+// console.log(newDiv)
 
-var layer1 = document.querySelector('header .container')
-var layer2 = document.querySelector('header h1')
+// var layer1 = document.querySelector('header .container')
+// var layer2 = document.querySelector('header h1')
 
-layer1.insertBefore(newDiv,layer2)
+// layer1.insertBefore(newDiv,layer2)
+
